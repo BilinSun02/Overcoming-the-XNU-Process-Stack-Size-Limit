@@ -1,0 +1,8 @@
+#!/bin/bash
+# compile - compile source file
+# This script assumes the current folder has only one source file and compiles it. Helpful just for practicing for programming contests.
+
+make all && ./runprog.sh
+
+echo
+# Finishes the line and prevent the shell from displaying the prompt without changing the line.
